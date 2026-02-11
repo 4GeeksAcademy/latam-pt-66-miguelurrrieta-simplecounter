@@ -1,11 +1,16 @@
-/* 
+.bigCounter {
+    backgroun-color: #101010;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    gap: 10px;
+    padding: 20;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.calendar,.four,.three,.two,.one {
+    background-color: #202020;
+    padding: 10px 20px;
+    border-radius: 5px
+}
